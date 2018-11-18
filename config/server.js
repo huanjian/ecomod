@@ -30,20 +30,20 @@ module.exports = {
 	mongodbServerUrl: dbUrl,
 
 	smtpServer: {
-		host: '',
-		port: 0,
+		host: 'smtp.gmail.com',
+		port: 465,
 		secure: true,
-		user: '',
-		pass: '',
-		fromName: '',
-		fromAddress: ''
+		user: 'huanjiantest@gmail.com',
+		pass: 'dr077620',
+		fromName: 'huanjian',
+		fromAddress: 'jianapp'
 	},
 
 	// key to sign tokens
-	jwtSecretKey: '-',
+	jwtSecretKey: 'SP69kXFR3znRi7kL8Max2GTB24wOtEQj',
 
 	// key to sign store cookies
-	cookieSecretKey: '-',
+	cookieSecretKey: '8669X9P5yI1DAEthy1chc3M9EncyS7SM',
 
 	// path to uploads
 	categoriesUploadPath: 'public/content/images/categories',
@@ -63,5 +63,5 @@ module.exports = {
 	// used by API
 	orderStartNumber: 1000,
 
-	developerMode: true
+	developerMode: false
 };
